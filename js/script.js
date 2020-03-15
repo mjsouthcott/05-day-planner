@@ -28,7 +28,7 @@ $currentDateTime.text(moment().format('dddd MMMM Do YYYY, h:mm:ss a'))
 // Call `addContent` function to display initial content
 addContent(moment().format('k'))
 
-// Call `setInterval` function to update current date and time, and content each second
+// Call `setInterval` function to update current date and time each second, and content at the top of every hour
 setInterval(function() {
     $currentDateTime.text(moment().format('dddd MMMM Do YYYY, h:mm:ss a'))
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-This application provides a simple calendar that allows users to save events for each standard business hour of the day. It runs in the browser and features dynamically updating HTML and CSS, powered by jQuery.
+This application provides a simple calendar that allows users to save events for each standard business hour of the day. It runs in the browser, and features dynamically updating HTML and CSS, powered by jQuery.
 
 This application meets all of the acceptance criteria specified by the customer:
 - The current date and time are displayed at the top of the calendar.
@@ -18,15 +18,15 @@ Click on the following URL to view the website in your browser: [https://mjsouth
 
 ## Usage
 
-1.  
+1.  Click on the text area in the center of a time block to add an event.
 
 ![Step 1](https://github.com/mjsouthcott/05-day-planner/blob/master/images/image1.JPG)
 
-2.  
+2.  Click the save button to the right of the text area to save the event. In this example, "Walk the dog" and "Make dinner" are saved, but "Call home" is not.
 
 ![Step 2](https://github.com/mjsouthcott/05-day-planner/blob/master/images/image2.JPG)
 
-3.  
+3.  If you refresh the page, saved events will persist. As you can see, "Walk the dog" and "Make dinner" are still there, but "Call home" is not.
 
 ![Step 3](https://github.com/mjsouthcott/05-day-planner/blob/master/images/image3.JPG)
 
