@@ -26,7 +26,7 @@ if (!window.localStorage.getItem('eventsText')) {
 $currentDateTime.text(moment().format('dddd MMMM Do YYYY, h:mm:ss a'))
 
 // Call `addContent` function to display initial content
-addContent(moment().format('h'))
+addContent(moment().format('k'))
 
 // Call `setInterval` function to update current date and time, and content each second
 setInterval(function() {
@@ -35,7 +35,7 @@ setInterval(function() {
     // Call `addContent` function at the top of every hour to update display
     if (moment().format('mm') === '00' && moment().format('ss') === '00') {
         $content.empty()
-        addContent(moment().format('h'))
+        addContent(moment().format('k'))
     }
 }, 1000)
 
