@@ -34,7 +34,7 @@ setInterval(function() {
     $currentDateTime.text(moment().format('dddd MMMM Do YYYY, h:mm:ss a'))
 
     // Call `addContent` function at the top of every hour to update display
-    if (moment().format('mm') === '00') {
+    if (moment().format('mm') === '00' && moment().format('ss') === '00') {
         $content.empty()
         addContent(moment().format('h'))
     }
