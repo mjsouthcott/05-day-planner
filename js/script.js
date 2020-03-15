@@ -1,7 +1,6 @@
+// Define and initialize variables
 let $content = $('#content')
 let $currentDateTime = $('#current-date-time')
-
-// Define and initialize variables
 let hours = [
     { displayFormat: '9AM', twentyFourHourFormat: 9 },
     { displayFormat: '10AM', twentyFourHourFormat: 10 },
